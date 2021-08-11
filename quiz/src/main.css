@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 300px 0;
+}
+
+.btn--start {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+  background: #004990;
+  border-radius: 5px;
+}
+
+.starter {
+  color: #1551a1;
+}
+
+.container {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.info__section--header {
+  position: relative;
+  margin: 20px 165px;
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.pagination__container {
+  display: flex;
+  width: 310px;
+  margin: 0 auto;
+}
+.pagination__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 0px 18px;
+  background: white;
+  font-weight: bold;
+  color: #afafaf;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 40px 15px;
+}
+.pagination__element--active {
+  background: #f6f6f6;
+  color: #1551a1;
+}
+
+/* QUIZ SECTION */
+.quiz__section {
+  position: relative;
+  margin: 0 auto;
+  height: 965px;
+  width: 900px;
+  background-color: #f6f6f6;
+}
+
+.quiz__section--container {
+  position: absolute;
+  margin: 20px 165px;
+  width: 600px;
+}
+
+.quiz__section--img {
+  margin: 40px 0;
+}
+.quiz__section--question {
+  font-size: 24px;
+  line-height: 28px;
+  color: #1551a1;
+  margin: 20px 0;
+}
+
+.quiz__section--answers {
+  margin: 20px 0;
+}
+
+.quiz__section--answer {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 15px;
+}
+
+.quiz__section--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 245px;
+  height: 50px;
+
+  margin: 40px 20px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 47px;
+}
+
+.btn--forward {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+  background: #004990;
+  border-radius: 5px;
+}
+
+.btn--back {
+  color: black;
+}
